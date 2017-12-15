@@ -3,9 +3,6 @@ class State extends Config
         states = [
             name: "worker.actions"
             multiple: false
-        ,
-            name: "workers.actions"
-            multiple: true
         ]
         states.forEach (state) ->
             $stateProvider.state state.name,
